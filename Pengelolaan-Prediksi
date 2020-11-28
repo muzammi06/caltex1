@@ -1,0 +1,16 @@
+print('\n') 
+print ('    PROGRAM MAGISTER TEKNIK TERAPAN KOMPUTER')  
+print('             POLITEKNIK CALTEX RIAU')
+print ('                  PEKANBARU')
+print(' credits  code : https://github.com/muzammi06/caltex1')
+print('Abdullah Al Muzammi - email : abdullah20s2tk@mahasiswa.pcr.ac.id')
+print('     site : abdullah20s2tk.wordpress.com')
+print('----------------------------------------------------------------------')
+string = "DATA PENUMPANG KAPAL TITANIC"
+new_string = string.center(40)
+print('--------------', new_string, "--------------")
+
+import pandas as pd
+dataset = pd.read_csv('titanic_all.csv')
+#cetak data
+print(dataset)
